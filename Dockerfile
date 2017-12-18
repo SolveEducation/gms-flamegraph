@@ -9,4 +9,4 @@ COPY stackcollapse-gms.py /opt/gms-flamegraph
 
 WORKDIR /opt/gms-flamegraph
 
-ENTRYPOINT ["sh", "-c", "python3 stackcollapse-gms.py | perl ./flamegraph.pl"]
+ENTRYPOINT ["sh", "-c", "python3 stackcollapse-gms.py | perl ./flamegraph.pl --countname ms"]
