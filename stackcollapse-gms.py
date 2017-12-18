@@ -1,6 +1,6 @@
 import sys
 
-stack = [''] * 1000
+stack = []
 frames = []
 
 # generate frames, a frame is a call stack + total time
@@ -8,14 +8,18 @@ for line in sys.stdin:
     leading_spaces = len(line) - len(line.lstrip())
     level = leading_spaces // 6
     tok = line.split(',')
-    
+ 
     if len(tok) < 2 or not tok[1].isnumeric():
         continue
-    
+  
     name = tok[0].lstrip()
     time = int(tok[1])
+  
+    if level < len(stack):
+        stack[level] = name
+    else:
+        stack.append(name)
 
-    stack[level] = name
     frames.append( (stack[:level+1], time) )
 
 # compute time spent in that frame
