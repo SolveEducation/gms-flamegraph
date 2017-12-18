@@ -40,3 +40,8 @@ docker run -i gms-flamegraph < sample-profile.csv > sample-profile.svg
 ## Viewing the flamegraph
 
 The generated flamegraph svg can be viewed in a browser.
+
+## Acknowledgment
+
+* [FlameGraph](https://github.com/brendangregg/FlameGraph)
+* [Solve Education!](https://solveeducation.org/)
