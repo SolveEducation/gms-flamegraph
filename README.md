@@ -15,7 +15,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Building the application
 
-Either git clone or download a zip the repo by clicking on the 'Clone or download' button.
+Either git clone or download a zip of the repo by clicking on the 'Clone or download' button.
 
 Open a shell and navigate to the local copy of the repo.
 
@@ -30,6 +30,8 @@ This builds a docker image named gms-flamegraph.
 ## Running the application
 
 The application reads a GMS profile csv from standard input and write a flamegraph svg to standard output.
+
+Note that the profile csv should be generated using 'total time' and 'tree' view.
 
 The following command generates the flamegraph from the sample-profile.csv provided in this repo.
 
