@@ -11,8 +11,6 @@ Once installed, open a shell and check that the following command executes witho
 docker --version
 ```
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ## Building the application
 
 Either git clone or download a zip of the repo by clicking on the 'Clone or download' button.
