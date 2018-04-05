@@ -2,6 +2,29 @@
 
 View profiler output as a flamegraph to gain insights into your game's performance.
 
+Input profile csv file:
+```
+name,time,calls,step %
+A,273,1,0,001 %
+      B,125,1,0,000 %
+            C,102,1,0,000 %
+                  D,16,10,0,000 %
+                  E,5,1,0,000 %
+                  F,3,1,0,000 %
+                  G,3,1,0,000 %
+                  H,2,1,0,000 %
+                  I,2,1,0,000 %
+J,101,1,0,000 %
+      K,78,1,0,000 %
+            L,11,1,0,000 %
+                  M,6,1,0,000 %
+            N,7,1,0,000 %
+            O,4,1,0,000 %
+            P,2,1,0,000 %
+            Q,2,1,0,000 %
+```
+
+Output flamegraph:
 <img src="https://cdn.rawgit.com/SolveEducation/gms-flamegraph/master/sample-profile.svg">
 
 ## Prerequisites
