@@ -2,7 +2,7 @@
 
 View profiler output as a flamegraph to gain insights into your game's performance.
 
-<img src="https://raw.githubusercontent.com/SolveEducation/gms-flamegraph/master/sample-profile.svg">
+<img src="https://cdn.rawgit.com/SolveEducation/gms-flamegraph/master/sample-profile.svg">
 
 ## Prerequisites
 
