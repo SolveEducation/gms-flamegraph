@@ -24,6 +24,27 @@ J,101,1,0,000 %
             Q,2,1,0,000 %
 ```
 
+### Folded stacks intermediate output:
+```
+A 148
+A;B 23
+A;B;C 71
+A;B;C;D 16
+A;B;C;E 5
+A;B;C;F 3
+A;B;C;G 3
+A;B;C;H 2
+A;B;C;I 2
+J 23
+J;K 52
+J;K;L 5
+J;K;L;M 6
+J;K;N 7
+J;K;O 4
+J;K;P 2
+J;K;Q 2
+```
+
 ### Output flamegraph:
 <img src="https://raw.githubusercontent.com/SolveEducation/gms-flamegraph/master/sample-profile.svg">
 
